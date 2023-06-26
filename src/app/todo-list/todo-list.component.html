@@ -1,0 +1,25 @@
+<div class="body">
+    <br><br><br>
+    <div class="container">
+        <h1>To-Do List</h1>
+        <ul *ngFor="let item of list; let index = index">
+            <li (click)="changeStatus(index)" [class.complete] = "list[index].completed">{{item.task}}
+                <i class='far fa-check-circle' [class.complete] = "list[index].completed"></i>
+                
+                <button class="delete-button" (click)="deleteTask(index)">X</button>
+            </li>
+        </ul>
+    </div>
+        <button class="task-button" id="toggleform" (click) ='toggleForm()'>Add Task</button>
+
+    <div class="form-area" *ngIf="form">
+        <div>
+            <label for="">To-do:</label>
+            <input type="text" placeholder="Type Task Here" [(ngModel)] = 'task'>
+            <button type="submit" id="submit-button" (click)="addNewData()">Add to list</button>
+
+
+        </div>
+    </div>
+
+</div>

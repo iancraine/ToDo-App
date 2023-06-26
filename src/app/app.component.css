@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+.body{
+    background: rgb(53, 53, 222);
+    background: radial-gradient(circle, rgb(53, 53, 222) 50%, rgb(3, 3, 131) 100%);
+    background-size: cover;
+    background-repeat: repeat-y;
+    min-height: 100vh;
+    width: 100vw;
+    height: 100%;
+}

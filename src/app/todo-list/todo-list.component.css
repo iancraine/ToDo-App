@@ -1,0 +1,77 @@
+/* .body{
+    background: rgb(53, 53, 222);
+    background: radial-gradient(circle, rgb(53, 53, 222) 50%, rgb(3, 3, 131) 100%);
+    width: 100vw;
+
+    height: 100vh;
+} */
+.container{
+    width:600px;
+    background: #fff;
+    margin: 50px auto;
+    margin-top: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+    border-radius: 10px;
+    border: 2px solid #000000 ;
+}
+h1{
+    background:rgb(242, 39, 39);
+    color:#000000;
+    padding:10px;
+    font-size:24px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+i.far.fa-check-circle { 
+    float:right;
+    color: darkgray;
+}
+li {
+    font-size: 24px;
+    border-bottom:1px solid #cdcdcd;
+    padding:10px 20px;
+    cursor:pointer;
+}
+ul {
+    list-style-type: none;
+    margin:0px;
+    padding:0px;
+}
+.delete-button{
+    float: right;
+    margin-right: 10px;
+}
+.form-area{
+    display: grid;
+}
+.task-button{
+    margin: auto;
+    padding: 20px;
+    width: 200px;
+    border-radius: 10px;
+}
+.complete{
+    text-decoration: line-through;
+    color: green;
+}
+li >.complete{
+    color: green;
+    text-decoration: none;
+}
+.form-area{
+    margin-top: 50px;
+    text-align: center;
+}
+#toggleform{
+    display: grid;
+
+}
+#submit-button{
+    margin: auto;
+    margin-left: 20px;
+    width: 100px;
+    border-radius: 10px;
+}
